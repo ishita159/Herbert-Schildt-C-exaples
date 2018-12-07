@@ -1,9 +1,10 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 #define SIZE 100
 
 //this creates the class stack.
-class stack
+class stac_k
+
 {
     int stck[SIZE];
     int tos;
@@ -12,11 +13,11 @@ public:
     void push(int i);
     int pop();           
 };
-void stack::init()
+void stac_k::init()
 {
     tos=0;
 }
-void stack::push(int i)
+void stac_k::push(int i)
 {
     if(tos==SIZE)
     {
@@ -26,9 +27,9 @@ void stack::push(int i)
     stck[tos]=i;
     tos++;
 }
-int stack::pop()
+int stac_k::pop()
 {
-    if(tos=0)
+    if(tos==0)
     {
         cout<<"STACK UNDERFLOW.\n";
         return 0;
@@ -38,7 +39,7 @@ int stack::pop()
 }
 int main()
 {
-    stack stack1, stack2;
+    stac_k stack1, stack2;
     int i=1,j=2,k=3,l=4;
     stack1.init();
     stack2.init();
