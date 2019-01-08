@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+
 class cl 
 {
     int i;
@@ -13,6 +15,8 @@ class cl
                return i;
            }
 };
+
+
 int main()
 {
     cl ob[3];
@@ -28,3 +32,52 @@ int main()
     }
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
